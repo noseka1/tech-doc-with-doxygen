@@ -1,0 +1,684 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+{\info
+{\title {\comment The Software Practitioner }The Software Practitioner}
+{\comment Generated byDoxgyen. }
+{\creatim \yr2015\mo6\dy14\hr23\min14\sec41}
+}\pard\plain
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt TITLE}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version \par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt CREATEDATE}}\par
+\page\page\vertalt
+\pard\plain
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid
+Main Page\par \pard\plain
+{\tc \v Main Page}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid
+{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid {\tc\tcl \v 3}List of pages\par}
+{
+\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid
+Page {\b Five Basic Tips for Teamwork with Git}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid
+Page {\b Using Cloud-Init Outside of Cloud}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid
+Page {\b Dynamic DNS with BIND and dhclient}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid
+Page {\b Java Logging Quick Reference} \par}
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid
+Five Basic Tips for Teamwork with Git{\tc \v Five Basic Tips for Teamwork with Git}\par \pard\plain
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid
+Do you care about how your Git commits look like? A great software practitioner does, indeed. Let's review a couple of basic tips for developers that make the Git commit log look good and teamwork with Git source control more fun.\par
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+1) Introduce yourself to Git
+\par}
+{\tc\tcl2 \v 1) Introduce yourself to Git}
+When searching through the commit history your fellow developers would like to recognize that this particular awesome commit was created by you. Before your first commit, please, introduce yourself to Git. Tell Git your name and email address: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 git config --global user.name "Ales Nosek"\par
+2 git config --global user.email "anosek@verimatrix.com"\par
+}
+\par}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+2) Commit message formatting
+\par}
+{\tc\tcl2 \v 2) Commit message formatting}
+Respect the conventions for Git commit message formatting. The first line of the commit message is a short (50 chars or less) summary. The first letter of the summary is capitalized and there's no dot at the end of the summary. The summary begins with a reference to the issue in your bug tracking system if available. Use imperative in your summary line as you'd be commanding your code to do something, i.e. write "Remove obsolete code" instead of "Removed obsolete code" or "Removes obsolete code". More detailed explanatory text comes after a blank line. Here is a model Git commit message:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 PROJXREF-27 Remove obsolete code in component X\par
+2 \par
+3 The logging functionality in component X is not needed anymore.\par
+4 Component Y took over the logging responsibility.\par
+}
+\par
+See also this {\f2 article} for more detailed explanation and examples.\par}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+3) One commit per unit of work
+\par}
+{\tc\tcl2 \v 3) One commit per unit of work}
+Create one commit per unit of work. A combined commit like "Add method X, correct indention, clean up whitespaces" is harder to review. Break your changes down into multiple commits, e.g. three commits "Add method X", "Correct indention" and "Clean up whitespaces".\par}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+4) git diff --cached
+\par}
+{\tc\tcl2 \v 4) git diff --cached}
+Before commiting {\i always}  check your code changes. Make sure that your commit includes only the changes you intended to commit. Let your debug code and test modifications not flow into the production code base. Before committing double-check your changes with: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 git diff --cached\par
+}
+\par}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+5) Trailing whitespaces
+\par}
+{\tc\tcl2 \v 5) Trailing whitespaces}
+Whitespace changes in the commit diffs decrease the readability of the commit diffs and make code review less fun. You can configure your editor to remove the trailing whitespaces for you on file save. Perhaps a better option though is to instruct Git to clean up the trailing white spaces automatically before comitting. You can use the commit hook {\f2 here} to do exactly that. Save the commit hook as file named {\f2 pre-commit} . Install the {\f2 pre-commit}  script into your Git repository:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 cp pre-commit my_existing_repo/.git/hooks\par
+2 chmod 755 my_existing_repo/.git/hooks/pre-commit\par
+}
+\par
+The pre-commit hook will run only before the commit in this particular Git repository. If you'd like Git to install the pre-commit hook to every newly created/cloned repository you'll need to add the hook file into your template directory. First tell Git where is your template directory located by adding the following into your {\f2 ~/.gitconfig}  file:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 [init]\par
+2         templatedir = ~/.gittemplate\par
+}
+\par
+Now you can create your Git template directory and copy the {\f2 pre-commit}  hook file into it:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 mkdir -p ~/.gittemplate/hooks\par
+2 cp pre-commit ~/.gittemplate/hooks\par
+3 chmod 755 ~/.gittemplate/hooks/pre-commit\par
+}
+\par
+From now on whenever you create/clone a Git repository you should find the {\f2 pre-commit}  hook file installed at {\f2 .git/hooks/pre-commit} . Git will clean up trailing whitespaces for you before you commit. \par}
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid
+Using Cloud-Init Outside of Cloud{\tc \v Using Cloud-Init Outside of Cloud}\par \pard\plain
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid
+In EC2 and OpenStack cloud environments {\i user data}  can be passed to the cloud instance to customize the cloud instance on the first boot. But what if your virtual machine doesn't run in the cloud environment? In this article we're going to configure our virtual machines with user data regardless if they're running in the cloud or not.\par
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+Introducing Cloud-Init
+\par}
+{\tc\tcl2 \v Introducing Cloud-Init}
+{\f2 Cloud-Init} is a tool that handles early initialization of a cloud instance. The {\f2 cloud-init}  RPM package should be installed on the disk image which the cloud instance is going to boot up from. The package installs init scripts into {\f2 /etc/rc.d/init.d}  that makes Cloud-Init run early during the system initialization. Cloud-Init obtains user data passed to it by the cloud software and executes them. User data contains a set of configuration tasks for the cloud instance. For example, Cloud-Init can update machine's hostname, configure {\f2 /etc/hosts} , create users, configure SSH authorized keys, resize filesystems, manage disk mounts, run user-defined scripts and {\f2 much more}.\par
+{\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid Even if you're not running your virtual machines in the cloud environment it's worth it to deploy Clout-Init. \par
+}Every cloud software comes with its own mechanism of how to pass the user data to the cloud instance. For example, EC2 provides a {\i magic IP}  from which the instance can download its user data. OpenStack cloud attaches a special {\i config drive}  to the cloud instance containing the user data to be consumed by Clout-Init. In order to pass the user data to our virtual machine let's go the OpenStack way and assemble a minimum config drive.\par}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+Config drive assembly
+\par}
+{\tc\tcl2 \v Config drive assembly}
+First, we're going to prepare the following file structure for our config drive:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 config_drive\par
+2 config_drive/openstack\par
+3 config_drive/openstack/latest\par
+4 config_drive/openstack/2012-08-10\par
+5 config_drive/openstack/2012-08-10/meta_data.json\par
+6 config_drive/openstack/2012-08-10/user_data\par
+}
+\par
+Start by creating directories and the {\f2 latest}  symbolic link like this:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 mkdir config_drive\par
+2 mkdir -p config_drive/openstack/2012-08-10\par
+3 ln -s 2012-08-10 config_drive/openstack/latest\par
+}
+\par
+Next create a minimum metadata file required by Cloud-Init. I'm using a fully qualified domain name of the virtual machine as its UUID:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 cat > config_drive/openstack/latest/meta_data.json << EOF\par
+2 \{\par
+3     "uuid": "myinstance.mydomain.com"\par
+4 \}\par
+5 EOF\par
+}
+\par
+Cloud-Init supports many {\f2 formats} for scripts within user data. One of the most popular formats is the {\i cloud-config}  file format. Let's create a cloud-config script that adds our SSH public key to the authorized keys for the user {\f2 root}  on the virtual machine. We can then login into the virtual machine as user root without using a password. If you don't have a public-private SSH key pair you can quickly generate it using {\f2 ssh-keygen}  command:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 ssh-keygen -f mykey\par
+}
+\par
+Now create a {\f2 user_data}  file with the configuration instructions for Cloud-Init. In the following code block replace the value of the {\f2 ssh-authorized-keys}  field with the content of your generated {\f2 mykey.pub}  file:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 cat > config_drive/openstack/latest/user_data << EOF\par
+2 #cloud-config\par
+3 fqdn: myinstance.mydomain.com\par
+4 users:\par
+5   - name: root\par
+6     ssh-authorized-keys:\par
+7       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNH8Qwn4raGR1f9fvjbZe/GXM2N9Mh+eWlsFoYpcU4H5qf5YxT5CUo7BaTOgeE5geHyzxJQmCQlvoxcW3qkcjBJvVgEsTrrnX7KYS8BszvT4AMIuG2Za8f7myubXd6zYfj74XYhutUsPz7x2TEp9ZqbVkWcaElrQFxF2AzF7dV1RGntpPKyISqem70En8RYpGY514OLZ9TQDBYjbw8tfPuDd9mznXnWOZ34fPtP7+QDvOMFuA4tXsBpHj99/cbC0ViwzZtvb1QtY7dv9OFDgCRadw81+SKtzXctQ2rCYkb0huc0BCE7kLzinzlO62Znd+N1d+tpLAwP6i8Z5ZMXIJj user@machine\par
+8 EOF\par
+}
+\par
+The file structure for our config drive is ready. Let's generate an ext2 filesystem and copy the files to it. The {\f2 virt-make-fs}  utility from the {\f2 libguestfs-tools}  package can help us with that:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 virt-make-fs config_drive disk.config\par
+}
+\par
+In order for Cloud-Init to detect the attached drive as config drive the filesystem on the config drive needs to be labeled {\f2 config-2} . You can use {\f2 e2label}  command from the {\f2 e2fsprogs}  package to label your config drive: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 e2label disk.config config-2\par
+}
+\par}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+Cloud-Init in action
+\par}
+{\tc\tcl2 \v Cloud-Init in action}
+On my Linux host I'm running {\f2 libvirt} to ease the management of virtual machines. You can install it by running {\f2 sudo yum install libvirt} . There is a handy command-line utility {\f2 virsh}  which comes with libvirt in the extra package {\f2 libvirt-client} .\par
+Let's create a virtual machine with the config drive attached. As a virtual machine boot image I'm using a CentOS-6 image from {\f2 cloud.centos.org} which comes with Cloud-Init built in. Make sure that your virtual machine boot image has Cloud-Init installed. Following is a virtual machine definition file for the CentoOS-6 virtual machine. You might need to change the location of the disk image files and save it as {\f2 CentOS-6.xml} :\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 <domain type='kvm'>\par
+2   <name>CentOS-6</name>\par
+3   <memory unit='KiB'>2097152</memory>\par
+4   <os>\par
+5     <type>hvm</type>\par
+6   </os>\par
+7   <devices>\par
+8     <disk type='file' device='disk'>\par
+9       <driver name="qemu" type="qcow2"/>\par
+10       <source file='/tmp/CentOS-6-x86_64-GenericCloud.qcow2'/>\par
+11       <target bus="virtio" dev="vda"/>\par
+12     </disk>\par
+13     <disk type='file' device='disk'>\par
+14       <driver name="qemu" type="raw"/>\par
+15       <source file='/tmp/disk.config'/>\par
+16       <target bus="virtio" dev="vdb"/>\par
+17     </disk>\par
+18     <interface type='network'>\par
+19       <source network='default'/>\par
+20     </interface>\par
+21     <serial type="file">\par
+22       <source path="/tmp/CentOS-6.log"/>\par
+23     </serial>\par
+24   </devices>\par
+25 </domain>\par
+}
+\par
+Okay, everything is ready, let's launch our Cloud-Init enabled CentOS-6 virtual machine: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 sudo virsh define CentOS-6.xml\par
+2 sudo virsh start CentOS-6\par
+}
+ If everything went fine you can watch the console output of the booting virtual machine at {\f2 /tmp/CentOS-6.log} . Cloud-Init will print out the IP address obtained by the virtual machine (192.168.122.165 in my case) where we can login as root using the generated private key: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 ssh -i testkey root@192.168.122.165\par
+}
+ Congratulations, your virtual machine has just been configured by Cloud-Init the same way as any other virtual machine running in the cloud environment. \par}
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid
+Dynamic DNS with BIND and dhclient{\tc \v Dynamic DNS with BIND and dhclient}\par \pard\plain
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid
+In this blogpost we're going to configure the BIND server to accept dynamic updates. Client machines themselves will send the updates to the DNS server instead of letting DHCP server update the DNS. A great setup for situations where the DHCP server is not in your control.\par
+Examples in this article work on RHEL6 that comes with BIND 9. You'll need to have {\f2 bind}  and {\f2 bind-utils}  RPM packages installed. In the following, the BIND server with host name {\f2 ns.somedomain.com}  is an authoritative DNS server for the fictive zone {\f2 somedomain.com} .\par
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+Dynamic DNS with BIND
+\par}
+{\tc\tcl2 \v Dynamic DNS with BIND}
+In our example we're going to configure the BIND server to accept DNS updates for {\f2 somedomain.com}  zone from any client. In production environment you'd use encryption keys to secure the access to the DNS server. You can read more on the secure configuration in {\f2 this} excellent article. To allow any client to update the {\f2 somedomain.com}  zone add the {\f2 allow-update \{ 0/0; \};}  option into your {\f2 /etc/named.conf}  file:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 zone "somedomain.com" in \{\par
+2         type master;\par
+3         file "db.somedomain.com";\par
+4         allow-update \{ 0/0; \};\par
+5 \};\par
+}
+\par
+After restarting the DNS server with {\f2 sudo /etc/init.d/named restart}  we can test that the DNS updates are working. Let's ask the DNS server {\f2 ns.somedomain.com}  to register a host {\f2 somehost.somedomain.com}  with IP address {\f2 192.168.100.200} : {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 nsupdate -d << EOF\par
+2 server ns.somedomain.com\par
+3 update add somehost.somedomain.com 300 A 192.168.100.200\par
+4 send\par
+5 EOF\par
+}
+ If everything worked fine you should see {\f2 status: NOERROR}  in the reply from update query. The DNS server created a new record in its database pairing the {\f2 somehost.somedomain.com}  host name with the IP address {\f2 192.168.100.200} . Let's check that the host name resolution works by issuing: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 host somehost.somedomain.com ns.somedomain.com\par
+}
+ You should see the IP address {\f2 192.168.100.200}  in the command output. When on the DNS server you can dump the zone data into {\f2 /var/named/data/cache_dump.db}  file for inspection: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 rndc dumpdb -all\par
+}
+\par}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+Updating DNS after IP acquisition
+\par}
+{\tc\tcl2 \v Updating DNS after IP acquisition}
+Our virtual machines obtain their IP addresses via DHCP. Whenever the virtual machine obtains a new IP address or renews the lease we'd like it to update the DNS accordingly. This way the DNS is always kept up to date and we're able to access the virtual machine using its host name.\par
+The IP address acquisition is managed by the DHCP client {\f2 dhclient}  running on the virtual machine. The {\f2 dhclient}  can be extended by custom hooks. We are going to prepare a script that updates the DNS database whenever the virtual machine acquires an IP address. Our DNS update hook must be saved at {\f2 /etc/dhcp/dhclient-eth0-up-hooks} . The {\f2 /sbin/dhclient-script}  shell script that comes with the {\f2 dhclient}  package will execute the hook. Upon execution the hook is passed a {\f2 reason}  variable describing the event.\par
+To install the update hook on the virtual machine let's make use of Cloud-Init tool that I talked about in the {\f2 previous blogpost}. The cloud-config script to be consumed by Cloud-Init looks as follows:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 #cloud-config\par
+2 fqdn: somehost.somedomain.com\par
+3 write_files:\par
+4   - path: /etc/dhcp/dhclient-eth0-up-hooks\par
+5     permissions: '0755'\par
+6     content: |\par
+7       #!/bin/bash\par
+8       INTERFACE=eth0\par
+9       LEASE_FILE=/var/lib/dhclient/dhclient-$INTERFACE.leases\par
+10       HOST_ADDR=$(sed -n -e 's/.*fixed-address \\([0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\).*/\\1/p' $LEASE_FILE | tail -1)\par
+11       HOST_NAME=$(hostname)\par
+12       NAMESERVER=ns.somedomain.com\par
+13       TTL=300\par
+14 \par
+15       if host $NAMESERVER 1>/dev/null 2>&1; then\par
+16         case $reason in\par
+17           BOUND|RENEW|REBIND|REBOOT)\par
+18             nsupdate << EOF\par
+19               server $NAMESERVER\par
+20               update delete $HOST_NAME A\par
+21               update add $HOST_NAME $TTL A $HOST_ADDR\par
+22               send\par
+23       EOF\par
+24           ;;\par
+25         esac\par
+26       fi\par
+27 runcmd:\par
+28   - hostname somehost.somedomain.com # fix the hostname incorrectly set up by cloud-init\par
+29   - reason=BOUND /etc/dhcp/dhclient-eth0-up-hooks # DNS registration on first boot\par
+}
+\par
+Upon the very first execution of the hook the machine's network setup is not complete yet. There's no {\f2 /etc/resolv.conf}  file written yet and the default route is not configured. The condition {\f2 if host $NAMESERVER; then ...}  skips the DNS update in this case. Later in the initialization process the {\f2 runcmd}  part of the cloud-config script gets executed. At this time the network configuration is complete and so we execute the update hook manually. This is the first time that the virtual machine registers itself with DNS. Cloud-Init executes the {\f2 runcmd}  section only on the very first boot. Subsequent boots won't execute the {\f2 runcmd}  code.\par
+Note that we're parsing the {\f2 /var/lib/dhclient/dhclient-eth0.leases}  file to obtain the acquired IP address. Should the virtual machine obtain different IP address in the future the DNS entry gets updated accordingly. \par}
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid
+Java Logging Quick Reference{\tc \v Java Logging Quick Reference}\par \pard\plain
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid
+The Simple Logging Facade for Java (SLF4J) serves as a simple abstraction for various logging frameworks. Let's look at how to configure SLF4J to work with SLF4J Simple logger, JDK 1.4 logger, Log4j, Logback and Log4j2 framework.\par
+Following is a Java code of our logging application {\f2 LogApp} . Note that it uses SLF4J API classes to do the logging. The jar file {\f2 slf4j-api-1.7.12.jar}  is the only compile time dependency. {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid import org.slf4j.Logger;\par
+import org.slf4j.LoggerFactory;\par
+\par
+public class LogApp \{\par
+\par
+    private static final Logger log = LoggerFactory.getLogger(LogApp.class);\par
+\par
+    public static void main(String[] args) \{\par
+        log.trace("Trace message");\par
+        log.debug("Debug message");\par
+        log.info("Info message");\par
+        log.warn("Warning message");\par
+        log.error("Error message");\par
+    \}\par
+\}\par
+}
+\par
+You can compile the LogApp code with:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 javac -cp slf4j-api-1.7.12.jar LogApp.java\par
+}
+\par
+And run the LogApp with:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 java -cp .:slf4j-api-1.7.12.jar LogApp\par
+}
+\par
+The output shows that SLF4J is missing a logger implementation. In the following we'll demonstrate how to plug in different logging backends. The principle is always the same: include the logging framework implementation jars on the classpath, include the respective SLF4J adaptor jar on the classpath and provide a configuration file specific to the logging framework. {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".\par
+2 SLF4J: Defaulting to no-operation (NOP) logger implementation\par
+3 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.\par
+}
+\par
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+SLF4J Simple logger
+\par}
+{\tc\tcl2 \v SLF4J Simple logger}
+The SLF4J comes with a Simple logger implemenation. Simple logger provides only basic functionality. It read its configuration from a {\f2 simplelogger.properties}  file that must be included on the classpath. There's no way to specify a different location of the configuration file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 org.slf4j.simpleLogger.logFile=System.out\par
+2 org.slf4j.simpleLogger.defaultLogLevel=debug\par
+3 org.slf4j.simpleLogger.showDateTime=true\par
+4 org.slf4j.simpleLogger.dateTimeFormat=HH:mm:ss.SSS\par
+}
+\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 org.slf4j.simpleLogger.logFile=/tmp/logger.out\par
+2 org.slf4j.simpleLogger.defaultLogLevel=debug\par
+3 org.slf4j.simpleLogger.showDateTime=true\par
+4 org.slf4j.simpleLogger.dateTimeFormat=HH:mm:ss.SSS\par
+}
+\par
+Run the application with:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 java -cp .:slf4j-api-1.7.12.jar:slf4j-simple-1.7.12.jar LogApp\par
+}
+\par}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+JDK 1.4 logger (java.util.logging)
+\par}
+{\tc\tcl2 \v JDK 1.4 logger (java.util.logging)}
+The java.util.logging package was introduced in JDK 1.4. The default {\f2 logging.properties}  configuration file that comes with JRE ({\f2 jre/lib/logging.properties} ) specifies a ConsoleHandler that routes logging to System.err. There's no way how to configure the JDK 1.4 logger to log to standard output instead of standard error output unless you do the configuration programmaticaly. You can specify the location of your JDK 1.4 logging configuration file in {\f2 java.util.logging.config.file}  Java property.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 handlers=java.util.logging.ConsoleHandler\par
+2 .level=FINE\par
+3 java.util.logging.ConsoleHandler.level=FINE\par
+4 java.util.logging.ConsoleHandler.formatter=java.util.logging.SimpleFormatter\par
+5 # message pattern works since Java 7\par
+6 java.util.logging.SimpleFormatter.format=%1$tT [%2$s] %4$s - %5$s %6$s%n\par
+}
+\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 handlers=java.util.logging.FileHandler\par
+2 .level=FINE\par
+3 java.util.logging.FileHandler.level=FINE\par
+4 java.util.logging.FileHandler.pattern=/tmp/logger.out\par
+5 java.util.logging.FileHandler.append=true\par
+6 java.util.logging.FileHandler.formatter=java.util.logging.SimpleFormatter\par
+7 # message pattern works since Java 7\par
+8 java.util.logging.SimpleFormatter.format=%1$tT [%2$s] %4$s - %5$s %6$s%n\par
+}
+\par
+Run the application with:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 java -cp .:slf4j-api-1.7.12.jar:slf4j-jdk14-1.7.12.jar -Djava.util.logging.config.file=/tmp/jdk14.stderr.properties LogApp\par
+}
+\par}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+Log4j
+\par}
+{\tc\tcl2 \v Log4j}
+The Log4j doesn't log a single message for you unless you provide it with a proper configuration: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 log4j:WARN No appenders could be found for logger (LogApp).\par
+2 log4j:WARN Please initialize the log4j system properly.\par
+3 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.\par
+}
+\par
+The following are the sample Log4j configuration files. Note that the {\f2 log4j.configuration}  Java property that specifies the location of the configuration file must be a URL. In the example below the {\f2 /tmp/log4j.stdout.properties}  location has to be prepended with {\f2 file:}  to form a URL.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 log4j.rootLogger=DEBUG, stdout\par
+2 log4j.appender.stdout=org.apache.log4j.ConsoleAppender\par
+3 log4j.appender.stdout.Target=System.out\par
+4 log4j.appender.stdout.layout=org.apache.log4j.PatternLayout\par
+5 log4j.appender.stdout.layout.ConversionPattern=%d\{HH:mm:ss\} [%t] %-5p %c\{1\}:%L - %m%n\par
+}
+\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 log4j.rootLogger=DEBUG, file\par
+2 log4j.appender.file=org.apache.log4j.FileAppender\par
+3 log4j.appender.file.File=/tmp/logger.out\par
+4 log4j.appender.file.layout=org.apache.log4j.PatternLayout\par
+5 log4j.appender.file.layout.ConversionPattern=%d\{HH:mm:ss\} [%t] %-5p %c\{1\}:%L - %m%n\par
+}
+\par
+Run the application with:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 java -cp .:slf4j-api-1.7.12.jar:slf4j-log4j12-1.7.12.jar:log4j-1.2.17.jar -Dlog4j.configuration=file:/tmp/log4j.stdout.properties LogApp\par
+}
+\par}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+Logback
+\par}
+{\tc\tcl2 \v Logback}
+With no configuration provided Logback defaults to printing all log messages on the console standard output. The {\f2 logback-classic}  jar package that comes with Logback includes the {\f2 org.slf4j.impl.StaticLoggerBinder}  class that serves as an adaptor to SLF4J framework. Therefore no extra SLF4J adaptor jar is needed on the runtime classpath. You can specify the location of your Logback configuration file in the {\f2 logback.configurationFile}  Java property.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 <configuration>\par
+2   <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">\par
+3     <Target>System.out</Target>\par
+4     <encoder>\par
+5       <pattern>%d\{HH:mm:ss\} [%t] %-5p %c\{1\}:%L - %m%n</pattern>\par
+6     </encoder>\par
+7   </appender>\par
+8   <root level="DEBUG">\par
+9     <appender-ref ref="stdout"/>\par
+10   </root>\par
+11 </configuration>\par
+}
+\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 <configuration>\par
+2   <appender name="file" class="ch.qos.logback.core.FileAppender">\par
+3     <File>/tmp/logger.out</File>\par
+4     <encoder>\par
+5       <pattern>%d\{HH:mm:ss\} [%t] %-5p %c\{1\}:%L - %m%n</pattern>\par
+6     </encoder>\par
+7   </appender>\par
+8   <root level="DEBUG">\par
+9     <appender-ref ref="file"/>\par
+10   </root>\par
+11 </configuration>\par
+}
+\par
+Run the application with:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 java -cp .:slf4j-api-1.7.12.jar:logback-core-1.1.3.jar:logback-classic-1.1.3.jar -Dlogback.configurationFile=/tmp/logback.stdout.xml LogApp\par
+}
+\par}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid
+Log4j2
+\par}
+{\tc\tcl2 \v Log4j2}
+With no configuration provided Log4j2 informs you that it logs only error messages to stdout. You can provide the location of your Log4j2 configuration file in the {\f2 log4j.configurationFile}  Java property.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.\par
+2 22:09:13.052 [main] ERROR LogApp - Error message\par
+}
+\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 <Configuration>\par
+2     <Appenders>\par
+3         <Console name="console" target="SYSTEM_OUT">\par
+4             <PatternLayout pattern="%d\{HH:mm:ss\} [%t] %-5p %c\{1\}:%L - %m%n" />\par
+5         </Console>\par
+6     </Appenders>\par
+7     <Loggers>\par
+8         <Root level="debug">\par
+9             <AppenderRef ref="console" />\par
+10         </Root>\par
+11     </Loggers>\par
+12 </Configuration>\par
+}
+\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 <Configuration>\par
+2     <Appenders>\par
+3         <File name="file" fileName="/tmp/logger.out" append="true">\par
+4             <PatternLayout pattern="%d\{HH:mm:ss\} [%t] %-5p %c\{1\}:%L - %m%n"/>\par
+5         </File>\par
+6     </Appenders>\par
+7     <Loggers>\par
+8         <Root level="debug">\par
+9             <AppenderRef ref="file" />\par
+10         </Root>\par
+11     </Loggers>\par
+12 </Configuration>\par
+}
+\par
+Run the application with:\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 java -cp .:slf4j-api-1.7.12.jar:log4j-core-2.2.jar:log4j-api-2.2.jar:log4j-slf4j-impl-2.2.jar -Dlog4j.configurationFile=/tmp/log4j2.stdout.xml LogApp\par
+}
+ \par}
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par
+\pard\plain
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
