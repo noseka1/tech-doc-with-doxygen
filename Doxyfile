@@ -1,0 +1,12 @@
+PROJECT_NAME           = "The Software Practitioner"
+PROJECT_BRIEF          = "Practicing to make software perfect."
+OUTPUT_DIRECTORY       = output
+INPUT                  = main_page.markdown \
+                         2015_04_18_five_basic_tips_for_teamwork_with_git.markdown \
+                         2015_04_26_using_cloud_init_outside_of_cloud.markdown \
+                         2015_05_02_dynamic_dns_with_bind_and_dhclient.markdown \
+                         2015_05_11_java_logging_quick_reference.markdown
+USE_MDFILE_AS_MAINPAGE = main_page.markdown
+DISABLE_INDEX          = YES
+GENERATE_TREEVIEW      = YES
+GENERATE_RTF           = YES
